@@ -25,6 +25,7 @@ const translations = {
 
     apresentationtitle: "09_PDF_PRESSKIT",
     apresentationkit: "Press Kit",
+    navPressKit: "Press Kit",
 
     // HERO
     heroBadge:       "▶ PRESS KIT — JUNE 2026",
@@ -182,6 +183,7 @@ const translations = {
 
     apresentationtitle: "09_PDF_APRESENTACAO",
     apresentationkit: "Kit de Apresentação",
+    navPressKit: "Kit Apresentação",
 
     // HERO
     heroBadge:       "▶ PRESS KIT — JUNHO 2026",
