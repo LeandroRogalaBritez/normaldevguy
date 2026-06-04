@@ -23,6 +23,9 @@ const translations = {
     navStory:        "Story",
     navContact:      "Contact",
 
+    apresentationtitle: "09_PDF_PRESSKIT",
+    apresentationkit: "Press Kit",
+
     // HERO
     heroBadge:       "▶ PRESS KIT — JUNE 2026",
     heroDesc:        "A 2D pixel art platformer where a developer jumps inside his own game — and must fix bugs by playing minigames.",
@@ -176,6 +179,9 @@ const translations = {
     navFeatures:     "Recursos",
     navStory:        "História",
     navContact:      "Contato",
+
+    apresentationtitle: "09_PDF_APRESENTACAO",
+    apresentationkit: "Kit de Apresentação",
 
     // HERO
     heroBadge:       "▶ PRESS KIT — JUNHO 2026",
