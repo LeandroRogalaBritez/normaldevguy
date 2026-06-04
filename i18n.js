@@ -25,21 +25,21 @@ const translations = {
 
     // HERO
     heroBadge:       "▶ PRESS KIT — JUNE 2026",
-    heroDesc:        "A 2D pixel art platformer where a game developer jumps inside his own creation — and must fix bugs by playing chaotic minigames from within the code.",
+    heroDesc:        "A 2D pixel art platformer where a developer jumps inside his own game — and must fix bugs by playing minigames.",
     metaRelease:     "RELEASE:",
     metaPlatform:    "PLATFORM:",
     metaGenre:       "GENRE:",
     metaGenreVal:    "Platformer / Casual",
     metaPrice:       "PRICE:",
-    metaPriceVal:    "1,99 USD",
+    metaPriceVal:    "1.99 USD",
     heroScroll:      "▼ SCROLL DOWN ▼",
 
     // ABOUT
     aboutLabel:      "// 01_ABOUT",
     aboutTitle:      "What is",
-    aboutP1:         "<strong>Normal Dev Guy – Inside Kenney World</strong> is an indie 2D platformer that turns the everyday struggles of game development into a playable adventure. The protagonist, Norman, is your average indie developer — until he literally dives into his own game to test it.",
-    aboutP2:         "What starts as a routine playtest quickly spirals into pixelated chaos. Bugs don't just crash the game — they become obstacles, enemies, and puzzles. The only way to squash them? Playing wild minigames from inside the code itself.",
-    aboutP3:         "Packed with <strong>Easter eggs</strong>, game engine references, cats, and an unhealthy amount of coffee, the game is a love letter to indie developers everywhere.",
+    aboutP1:         "<strong>Normal Dev Guy – Inside Kenney World</strong> is an indie 2D platformer that turns the day-to-day challenges of game development into a playable adventure. The protagonist, Norman, is just your average indie developer — until the moment he literally jumps inside his own game to test it.",
+    aboutP2:         "What starts as a routine playtest quickly turns into pixelated chaos. Bugs don't just crash the game — they become obstacles, enemies, and puzzles. The only way to fix them? Playing minigames.",
+    aboutP3:         "Packed with <strong>Easter eggs</strong>, game engine references, cats, and an absurd amount of coffee, the game is a love letter to indie developers all over the world.",
     aboutQuote:      '"A game where fixing bugs IS the gameplay — relatable for any dev, fun for everyone."',
 
     // NUMBERS
@@ -50,8 +50,8 @@ const translations = {
 
     // FACT SHEET
     factsLabel:      "// 02_FACT_SHEET",
-    factsTitle:      "Quick",
-    factsTitleEm:    "Facts",
+    factsTitle:      "Fact",
+    factsTitleEm:    "Sheet",
     factKeyTitle:    "Title",
     factKeyDev:      "Developer",
     factKeyPub:      "Publisher",
@@ -76,15 +76,15 @@ const translations = {
     featTitle:       "What Makes It",
     featTitleEm:     "Special",
     feat1Name:       "2D Pixel Art Platformer",
-    feat1Desc:       "Classic side-scrolling gameplay with charm, character, and tight controls across 9 handcrafted levels.",
+    feat1Desc:       "Classic side-scrolling gameplay with charm, personality, and precise controls across 9 handcrafted levels.",
     feat2Name:       "Bug-Fixing Minigames",
-    feat2Desc:       '6 unique and varied minigames are the core mechanic — each one a creative way to "patch" in-game bugs.',
+    feat2Desc:       '6 unique and varied minigames are the core mechanic — each one a creative way to "fix" in-game bugs.',
     feat3Name:       "Easter Eggs Galore",
     feat3Desc:       "Packed with references and inside jokes for anyone who has ever opened a game engine. A love letter to devs.",
     feat4Name:       "Varied Enemies",
     feat4Desc:       "Each level brings new enemy types that keep gameplay fresh and surprising throughout the adventure.",
     feat5Name:       "Cats!",
-    feat5Desc:       "Because no indie game is complete without feline companions. Enough said.",
+    feat5Desc:       "Because no indie game is complete without feline companions. That's enough said.",
     feat6Name:       "Lots of Coffee",
     feat6Desc:       "The universal fuel of game developers, faithfully represented throughout Norman's journey.",
     feat7Name:       "12 Languages",
@@ -96,9 +96,9 @@ const translations = {
     storyLabel:      "// 04_GAME_STORY",
     storyTitle:      "The",
     storyTitleEm:    "Story",
-    storyP1:         "Norman is just your average indie developer — overworked, over-caffeinated, and utterly passionate about his craft. One day, instead of testing his game the normal way, he makes a decision that will change everything: he jumps inside his own game.",
-    storyP2:         "What awaits him is not a polished experience — it's the raw, bug-ridden guts of a work-in-progress. Every level is alive with errors. Null references manifest as enemies. Collision bugs warp the world. And the only way to fix them is from the inside out.",
-    storyP3:         "Armed with nothing but his wits (and an inexplicable supply of coffee), Norman must tackle each bug head-on — through a series of crazy, unexpected minigames hidden within the code. It's a developer's nightmare turned into the most meta adventure ever made.",
+    storyP1:         "Norman is just your average indie developer — overworked, over-caffeinated, and passionate about what he does. One day, instead of testing his game the normal way, he makes a decision that will change everything: he jumps inside his own game.",
+    storyP2:         "What awaits him is not a polished experience — it's the raw, bug-ridden guts of a game in development. And the only way to fix them is from the inside out.",
+    storyP3:         "Armed with nothing but his wits (and an inexplicable supply of coffee), Norman must tackle each bug head-on — through a series of crazy, unexpected minigames. It's a developer's nightmare turned into an adventure.",
 
     // TAGS
     tagsLabel:       "// 05_STEAM_TAGS",
@@ -157,7 +157,7 @@ const translations = {
 
     // CONTACT
     contactTitle:    "GET IN TOUCH",
-    contactSub:      "For press inquiries, review keys, interviews, or any media request, reach out via the Steam page or publisher contact. We're happy to provide screenshots, additional materials, or a press key.",
+    contactSub:      "For press inquiries, review keys, interviews, or any media request, reach out via the Steam page or publisher contact at leandrorogalabritezltda@gmail.com. We're happy to provide screenshots, additional materials, or a press key.",
     btnSteam:        "▶ STEAM PAGE",
     btnDemo:         "DOWNLOAD DEMO",
 
