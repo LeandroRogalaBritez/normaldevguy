@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="pageTitle">Normal Dev Guy: Inside Kenney World</title>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Press+Start+2P&family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="assets/StrongIdle2.gif">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo" data-i18n="navLogo">PRESS KIT</div>
+  <ul class="nav-links">
+    <li><a href="#about" data-i18n="navAbout">About</a></li>
+    <li><a href="#facts" data-i18n="navFacts">Fact Sheet</a></li>
+    <li><a href="#features" data-i18n="navFeatures">Features</a></li>
+    <li><a href="#story" data-i18n="navStory">Story</a></li>
+    <li><a href="#media" data-i18n="navMedia">Media</a></li>
+    <li><a href="#contact" data-i18n="navContact">Contact</a></li>
+  </ul>
+  <div class="lang-switcher">
+    <button class="lang-btn active" data-lang="en">EN</button>
+    <span class="lang-sep">|</span>
+    <button class="lang-btn" data-lang="pt">PT</button>
+  </div>
+</nav>
+
+<main>
+
+<!-- HERO -->
+<section class="hero">
+
+  <!-- Gameplay video background -->
+  <div class="hero-video-wrap">
+    <video class="hero-video" autoplay muted loop playsinline
+           poster="assets/capsula_principal.png">
+      <source src="assets/gif1.webm" type="video/webm">
+      <source src="assets/gif2.webm" type="video/webm">
+      <!-- Fallback: show capsula if video unsupported -->
+      <img src="assets/capsula_principal.png" alt="Normal Dev Guy – Inside Kenney World" style="width:100%;height:100%;object-fit:cover;">
+    </video>
+    <div class="hero-video-overlay"></div>
+  </div>
+
+  <!-- Grid on top of video -->
+  <div class="hero-grid"></div>
+
+  <!-- Floating pixel characters (decorative) -->
+  <div class="hero-sprites" aria-hidden="true">
+    <img class="sprite sprite-1" src="assets/WhiteIdle.gif"           alt="">
+    <img class="sprite sprite-2" src="assets/coffebottle-Sheet.gif"   alt="">
+    <img class="sprite sprite-3" src="assets/TilemapCharacters6.gif"  alt="">
+    <img class="sprite sprite-4" src="assets/TilemapCharacters7.gif"  alt="">
+    <img class="sprite sprite-5" src="assets/TilemapCharacters8.gif"  alt="">
+    <img class="sprite sprite-6" src="assets/TilemapCharacters9.gif"  alt="">
+    <img class="sprite sprite-7" src="assets/TilemapCharacters10.gif" alt="">
+    <img class="sprite sprite-8" src="assets/StrongIdle2.gif"         alt="">
+  </div>
+
+  <!-- Content -->
+  <h1 class="hero-title">
+    NORMAL DEV GUY
+    <span>INSIDE KENNEY WORLD</span>
+  </h1>
+  <p class="hero-desc" data-i18n="heroDesc">
+    A 2D pixel art platformer where a game developer jumps inside his own creation — and must fix bugs by playing chaotic minigames from within the code.
+  </p>
+  <div class="hero-meta">
+    <div class="meta-chip"><span data-i18n="metaRelease">RELEASE:</span> <strong>Jun 26, 2026</strong></div>
+    <div class="meta-chip"><span data-i18n="metaPlatform">PLATFORM:</span> <strong>PC (Steam)</strong></div>
+    <div class="meta-chip"><span data-i18n="metaGenre">GENRE:</span> <strong data-i18n="metaGenreVal">Platformer / Casual</strong></div>
+    <div class="meta-chip"><span data-i18n="metaPrice">PRICE:</span> <strong data-i18n="metaPriceVal">TBD</strong></div>
+  </div>
+  <div class="hero-scroll" data-i18n="heroScroll">▼ SCROLL DOWN ▼</div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="section-label" data-i18n="aboutLabel">// 01_ABOUT</div>
+  <h2 class="section-title"><span data-i18n="aboutTitle">What is</span> <em>Normal Dev Guy</em>?</h2>
+  <div class="about-block">
+    <div class="about-text">
+      <p data-i18n="aboutP1">
+        <strong>Normal Dev Guy – Inside Kenney World</strong> is an indie 2D platformer that turns the everyday struggles of game development into a playable adventure. The protagonist, Norman, is your average indie developer — until he literally dives into his own game to test it.
+      </p>
+      <p data-i18n="aboutP2">
+        What starts as a routine playtest quickly spirals into pixelated chaos. Bugs don't just crash the game — they become obstacles, enemies, and puzzles. The only way to squash them? Playing wild minigames from inside the code itself.
+      </p>
+      <div class="about-quote" data-i18n="aboutQuote">
+        "A game where fixing bugs IS the gameplay — relatable for any dev, fun for everyone."
+      </div>
+    </div>
+    <div class="about-right">
+      <!-- Key art capsule -->
+      <div class="about-capsule">
+        <img src="assets/capsula_principal.png"
+             alt="Normal Dev Guy – Inside Kenney World key art"
+             loading="lazy">
+      </div>
+      <!-- Stats row -->
+      <div class="numbers-row">
+        <div class="number-box">
+          <span class="number-big">9</span>
+          <span class="number-label" data-i18n="numLevels">Unique Levels</span>
+        </div>
+        <div class="number-box">
+          <span class="number-big">6</span>
+          <span class="number-label" data-i18n="numMinigames">Exclusive Minigames</span>
+        </div>
+        <div class="number-box">
+          <span class="number-big">12</span>
+          <span class="number-label" data-i18n="numLanguages">Supported Languages</span>
+        </div>
+        <div class="number-box">
+          <span class="number-big">400MB</span>
+          <span class="number-label" data-i18n="numStorage">Storage Required</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- FACT SHEET -->
+<section class="section" id="facts">
+  <div class="section-label" data-i18n="factsLabel">// 02_FACT_SHEET</div>
+  <h2 class="section-title"><span data-i18n="factsTitle">Quick</span> <em data-i18n="factsTitleEm">Facts</em></h2>
+
+  <div class="facts-grid">
+    <div class="fact-item">
+      <div class="fact-key" data-i18n="factKeyTitle">Title</div>
+      <div class="fact-val">Normal Dev Guy – Inside Kenney World</div>
+    </div>
+    <div class="fact-item">
+      <div class="fact-key" data-i18n="factKeyDev">Developer</div>
+      <div class="fact-val">Leandro Rogala Britez Ltda</div>
+    </div>
+    <div class="fact-item">
+      <div class="fact-key" data-i18n="factKeyPub">Publisher</div>
+      <div class="fact-val">Leandro Rogala Britez Ltda</div>
+    </div>
+    <div class="fact-item">
+      <div class="fact-key" data-i18n="factKeyRelease">Release Date</div>
+      <div class="fact-val" data-i18n="factValRelease">June 26, 2026</div>
+    </div>
+    <div class="fact-item">
+      <div class="fact-key" data-i18n="factKeyPlatforms">Platforms</div>
+      <div class="fact-val">PC — Windows 10+</div>
+    </div>
+    <div class="fact-item">
+      <div class="fact-key" data-i18n="factKeyGenre">Genre</div>
+      <div class="fact-val" data-i18n="factValGenre">Adventure / Casual / Indie / 2D Platformer</div>
+    </div>
+    <div class="fact-item">
+      <div class="fact-key" data-i18n="factKeyMode">Mode</div>
+      <div class="fact-val" data-i18n="factValMode">Singleplayer</div>
+    </div>
+    <div class="fact-item">
+      <div class="fact-key" data-i18n="factKeySteam">Steam Features</div>
+      <div class="fact-val" data-i18n="factValSteam">Achievements · Cloud · Leaderboards · Family Sharing</div>
+    </div>
+    <div class="fact-item">
+      <div class="fact-key" data-i18n="factKeySteamPage">Steam Page</div>
+      <div class="fact-val"><a href="https://store.steampowered.com/app/4506350/" target="_blank">Link</a></div>
+    </div>
+    <div class="fact-item">
+      <div class="fact-key" data-i18n="factKeyDemo">Demo Available</div>
+      <div class="fact-val" data-i18n="factValDemo"><a href="https://store.steampowered.com/app/4527810/" target="_blank">Link</a></div>
+    </div>
+    <div class="fact-item">
+      <div class="fact-key" data-i18n="factKeyStorage">Storage</div>
+      <div class="fact-val">~400 MB</div>
+    </div>
+    <div class="fact-item">
+      <div class="fact-key" data-i18n="factKeyController">Controller Support</div>
+      <div class="fact-val" data-i18n="factValController">Yes</div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- FEATURES -->
+<section class="section" id="features">
+  <div class="section-label" data-i18n="featLabel">// 03_FEATURES</div>
+  <h2 class="section-title"><span data-i18n="featTitle">What Makes It</span> <em data-i18n="featTitleEm">Special</em></h2>
+
+  <div class="features-list">
+    <div class="feature-card">
+      <span class="feature-icon">🎮</span>
+      <div class="feature-name" data-i18n="feat1Name">2D Pixel Art Platformer</div>
+      <div class="feature-desc" data-i18n="feat1Desc">Classic side-scrolling gameplay with charm, character, and tight controls across 9 handcrafted levels.</div>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">🐛</span>
+      <div class="feature-name" data-i18n="feat2Name">Bug-Fixing Minigames</div>
+      <div class="feature-desc" data-i18n="feat2Desc">6 unique and varied minigames are the core mechanic — each one a creative way to "patch" in-game bugs.</div>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">👾</span>
+      <div class="feature-name" data-i18n="feat4Name">Varied Enemies</div>
+      <div class="feature-desc" data-i18n="feat4Desc">Each level brings new enemy types that keep gameplay fresh and surprising throughout the adventure.</div>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">🐱</span>
+      <div class="feature-name" data-i18n="feat5Name">Cats!</div>
+      <div class="feature-desc" data-i18n="feat5Desc">Because no indie game is complete without feline companions. Enough said.</div>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">☕</span>
+      <div class="feature-name" data-i18n="feat6Name">Lots of Coffee</div>
+      <div class="feature-desc" data-i18n="feat6Desc">The universal fuel of game developers, faithfully represented throughout Norman's journey.</div>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">🌍</span>
+      <div class="feature-name" data-i18n="feat7Name">12 Languages</div>
+      <div class="feature-desc" data-i18n="feat7Desc">Full interface and subtitle support in English, Portuguese (BR & PT), Spanish, French, Italian, German, Russian, Korean, Japanese, Chinese, and Arabic.</div>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">💻</span>
+      <div class="feature-name" data-i18n="feat8Name">Low-Spec Friendly</div>
+      <div class="feature-desc" data-i18n="feat8Desc">Designed to run on almost any PC — integrated graphics and older processors are fully supported.</div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- STORY -->
+<section class="section" id="story">
+  <div class="section-label" data-i18n="storyLabel">// 04_GAME_STORY</div>
+  <h2 class="section-title"><span data-i18n="storyTitle">The</span> <em data-i18n="storyTitleEm">Story</em></h2>
+
+  <div class="story-box">
+    <p data-i18n="storyP1">
+      Norman is just your average indie developer — overworked, over-caffeinated, and utterly passionate about his craft. One day, instead of testing his game the normal way, he makes a decision that will change everything: he jumps inside his own game.
+    </p>
+    <p data-i18n="storyP2">
+      What awaits him is not a polished experience — it's the raw, bug-ridden guts of a work-in-progress. Every level is alive with errors. Null references manifest as enemies. Collision bugs warp the world. And the only way to fix them is from the inside out.
+    </p>
+    <p data-i18n="storyP3">
+      Armed with nothing but his wits (and an inexplicable supply of coffee), Norman must tackle each bug head-on — through a series of crazy, unexpected minigames hidden within the code. It's a developer's nightmare turned into the most meta adventure ever made.
+    </p>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- TAGS -->
+<section class="section">
+  <div class="section-label" data-i18n="tagsLabel">// 05_STEAM_TAGS</div>
+  <h2 class="section-title" style="margin-bottom:24px;">Steam <em>Tags</em></h2>
+  <div class="tags-wrap">
+    <div class="game-tag" data-i18n="tagAdventure">Adventure</div>
+    <div class="game-tag" data-i18n="tagCasual">Casual</div>
+    <div class="game-tag" data-i18n="tagArcade">Arcade</div>
+    <div class="game-tag" data-i18n="tagPlatformer">Platformer</div>
+    <div class="game-tag" data-i18n="tagSideScroller">Side Scroller</div>
+    <div class="game-tag">2D Platformer</div>
+    <div class="game-tag">2D</div>
+    <div class="game-tag" data-i18n="tagPixel">Pixel Graphics</div>
+    <div class="game-tag" data-i18n="tagFantasy">Fantasy</div>
+    <div class="game-tag">Cats</div>
+    <div class="game-tag">Indie</div>
+    <div class="game-tag" data-i18n="tagSatire">Satire</div>
+    <div class="game-tag">Controller</div>
+    <div class="game-tag" data-i18n="tagLinear">Linear</div>
+    <div class="game-tag" data-i18n="tagSingle">Singleplayer</div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- LANGUAGES -->
+<section class="section">
+  <div class="section-label" data-i18n="langsLabel">// 06_LANGUAGES</div>
+  <h2 class="section-title" style="margin-bottom:24px;"><em data-i18n="langsTitle">Localization</em></h2>
+  <div class="langs-wrap">
+    <div class="lang-tag primary">English</div>
+    <div class="lang-tag primary">Português - Brasil</div>
+    <div class="lang-tag">Español</div>
+    <div class="lang-tag">Français</div>
+    <div class="lang-tag">Italiano</div>
+    <div class="lang-tag">Deutsch</div>
+    <div class="lang-tag">Русский</div>
+    <div class="lang-tag">한국어</div>
+    <div class="lang-tag">日本語</div>
+    <div class="lang-tag">简体中文</div>
+    <div class="lang-tag">Português</div>
+    <div class="lang-tag">عربي</div>
+  </div>
+  <p class="langs-note" data-i18n="langsNote">* Interface + Subtitles for all languages. No full audio dubbing.</p>
+</section>
+
+<div class="divider"></div>
+
+<!-- SYSTEM REQUIREMENTS -->
+<section class="section">
+  <div class="section-label" data-i18n="reqLabel">// 07_SYSTEM_REQUIREMENTS</div>
+  <h2 class="section-title" style="margin-bottom:24px;"><span data-i18n="reqTitle">System</span> <em data-i18n="reqTitleEm">Requirements</em></h2>
+
+  <table class="req-table">
+    <thead>
+      <tr>
+        <th data-i18n="reqThComponent">Component</th>
+        <th data-i18n="reqThMinimum">Minimum</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td data-i18n="reqOS">OS</td><td>Windows 10 (64-bit) or later</td></tr>
+      <tr><td data-i18n="reqCPU">Processor</td><td>Intel Core 2 Duo or equivalent</td></tr>
+      <tr><td data-i18n="reqRAM">Memory</td><td>4 GB RAM</td></tr>
+      <tr><td data-i18n="reqGPU">Graphics</td><td data-i18n="reqGPUVal">Integrated graphics compatible with DirectX</td></tr>
+      <tr><td>DirectX</td><td data-i18n="reqDX">Version 11</td></tr>
+      <tr><td data-i18n="reqStorage">Storage</td><td data-i18n="reqStorageVal">400 MB available space</td></tr>
+      <tr><td data-i18n="reqSound">Sound</td><td data-i18n="reqSoundVal">Any DirectX compatible sound card</td></tr>
+      <tr><td data-i18n="reqNotes">Notes</td><td data-i18n="reqNotesVal">Low-spec PC friendly. Designed to run on most systems.</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<div class="divider"></div>
+
+<!-- MEDIA -->
+<section class="section" id="media">
+  <div class="section-label" data-i18n="mediaLabel">// 08_MEDIA</div>
+  <h2 class="section-title"><span data-i18n="mediaTitle">Screenshots</span> <em data-i18n="mediaTitleEm">&amp; Videos</em></h2>
+
+  <!-- TRAILER -->
+  <div class="media-subsection">
+    <div class="media-sublabel" data-i18n="mediaTrailer">GAMEPLAY TRAILER</div>
+    <div class="media-trailer-wrap">
+      <div class="media-trailer-frame">
+        <iframe
+          src="https://www.youtube.com/embed/74-pWbECp_c?rel=0&color=white&modestbranding=1"
+          title="Normal Dev Guy – Inside Kenney World Gameplay Trailer"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          loading="lazy">
+        </iframe>
+      </div>
+      <div class="media-trailer-meta">
+        <div class="trailer-meta-row"><span class="trailer-meta-key">YouTube</span><span class="trailer-meta-val"><a href="https://www.youtube.com/watch?v=74-pWbECp_c" target="_blank">Link</a></span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- KEY ART / CAPSULE -->
+  <div class="media-subsection">
+    <div class="media-sublabel" data-i18n="mediaKeyArt">KEY ART &amp; CAPSULE</div>
+    <div class="media-keyart-row">
+
+      <div class="media-asset">
+        <div class="media-placeholder mp-wide" style="aspect-ratio:1232/706">
+          <img src="assets/capsula_principal.png" alt="Capsule Principal 1232x706" loading="lazy">
+          <div class="placeholder-label">1232 × 706 — Capsule Principal</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- SCREENSHOTS -->
+  <div class="media-subsection">
+    <div class="media-sublabel" data-i18n="mediaScreenshots">SCREENSHOTS</div>
+    <div class="media-grid">
+
+      <div class="media-asset">
+        <div class="media-placeholder" style="aspect-ratio:16/9">
+          <img src="assets/Bug_brazilian.png" alt="Bug Level (PT-BR)" loading="lazy">
+          <div class="placeholder-label">Bug (PT-BR) · 1920×1080</div>
+        </div>
+      </div>
+
+      <div class="media-asset">
+        <div class="media-placeholder" style="aspect-ratio:16/9">
+          <img src="assets/Desert.png" alt="Desert Level" loading="lazy">
+          <div class="placeholder-label">Desert · 1920×1080</div>
+        </div>
+      </div>
+
+      <div class="media-asset">
+        <div class="media-placeholder" style="aspect-ratio:16/9">
+          <img src="assets/Snow.png" alt="Snow Level" loading="lazy">
+          <div class="placeholder-label">Snow · 1920×1080</div>
+        </div>
+      </div>
+
+      <div class="media-asset">
+        <div class="media-placeholder" style="aspect-ratio:16/9">
+          <img src="assets/Boss.png" alt="Boss Encounter" loading="lazy">
+          <div class="placeholder-label">Boss · 1920×1080</div>
+        </div>
+      </div>
+
+      <div class="media-asset">
+        <div class="media-placeholder" style="aspect-ratio:16/9">
+          <img src="assets/Minigame.png" alt="Minigame" loading="lazy">
+          <div class="placeholder-label">Minigame · 1920×1080</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- GAMEPLAY CLIPS -->
+  <div class="media-subsection">
+    <div class="media-sublabel" data-i18n="mediaVideos">GAMEPLAY CLIPS</div>
+    <div class="media-grid">
+
+      <div class="media-asset media-asset--video">
+        <div class="media-placeholder" style="aspect-ratio:800/416">
+          <video autoplay muted loop playsinline>
+            <source src="assets/gif1.webm" type="video/webm">
+          </video>
+          <div class="placeholder-label">Gameplay Clip 01 · 800×416 · 5.3s</div>
+        </div>
+      </div>
+
+      <div class="media-asset media-asset--video">
+        <div class="media-placeholder" style="aspect-ratio:800/416">
+          <video autoplay muted loop playsinline>
+            <source src="assets/gif2.webm" type="video/webm">
+          </video>
+          <div class="placeholder-label">Gameplay Clip 02 · 800×416 · 4.3s</div>
+        </div>
+      </div>
+
+      <div class="media-asset media-asset--video">
+        <div class="media-placeholder" style="aspect-ratio:800/416">
+          <video autoplay muted loop playsinline>
+            <source src="assets/gif3.webm" type="video/webm">
+          </video>
+          <div class="placeholder-label">Gameplay Clip 03 · 800×416 · 4.8s</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- SPRITE / CHARACTER ART -->
+  <!-- SPRITE / CHARACTER ART -->
+  <div class="media-subsection">
+    <div class="media-sublabel" data-i18n="mediaSprites">CHARACTERS &amp; SPRITES</div>
+    <div class="media-sprites-row">
+      <div class="sprite-card">
+        <img src="assets/WhiteIdle.gif" alt="White Cat Idle">
+        <span class="sprite-label">WhiteIdle · 32×32</span>
+      </div>
+      <div class="sprite-card">
+        <img src="assets/coffebottle-Sheet.gif" alt="Coffee Bottle">
+        <span class="sprite-label">Coffee Bottle · 16×16</span>
+      </div>
+      <div class="sprite-card">
+        <img src="assets/TilemapCharacters6.gif" alt="Enemy 6">
+        <span class="sprite-label">Character 6 · 24×24</span>
+      </div>
+      <div class="sprite-card">
+        <img src="assets/TilemapCharacters7.gif" alt="Enemy 7">
+        <span class="sprite-label">Character 7 · 24×24</span>
+      </div>
+      <div class="sprite-card">
+        <img src="assets/TilemapCharacters8.gif" alt="Enemy 8">
+        <span class="sprite-label">Character 8 · 24×24</span>
+      </div>
+      <div class="sprite-card">
+        <img src="assets/TilemapCharacters9.gif" alt="Enemy 9">
+        <span class="sprite-label">Character 9 · 24×24</span>
+      </div>
+      <div class="sprite-card">
+        <img src="assets/TilemapCharacters10.gif" alt="Enemy 10">
+        <span class="sprite-label">Character 10 · 24×24</span>
+      </div>
+      <div class="sprite-card">
+        <img src="assets/StrongIdle2.gif" alt="Strong Idle">
+        <span class="sprite-label">StrongIdle · 18×23</span>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<div class="divider"></div>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+  <div class="contact-box">
+    <div class="contact-title" data-i18n="contactTitle">GET IN TOUCH</div>
+    <p class="contact-sub" data-i18n="contactSub">
+      For press inquiries, review keys, interviews, or any media request, reach out via the Steam page or publisher contact. We're happy to provide screenshots, additional materials, or a press key.
+    </p>
+    <div class="cta-buttons">
+      <a class="btn btn-primary" href="https://store.steampowered.com/app/4506350/" target="_blank" data-i18n="btnSteam">▶ STEAM PAGE</a>
+      <a class="btn btn-ghost" href="https://store.steampowered.com/app/4527810/" target="_blank" data-i18n="btnDemo">DOWNLOAD DEMO</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <p>© 2026 <strong>LEANDRO ROGALA BRITEZ LTDA</strong> — <span data-i18n="footerRights">All rights reserved.</span><br>
+  <span class="footer-sub">Normal Dev Guy – Inside Kenney World · Steam App ID: 4506350 · <span data-i18n="footerRelease">Planned Release:</span> June 26, 2026</span></p>
+</footer>
+
+<script src="i18n.js"></script>
+</body>
+</html>
